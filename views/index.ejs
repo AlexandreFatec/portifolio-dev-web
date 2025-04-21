@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio | Alexandre</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <%- include('partials/header') %>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <div class="card">
+      <p>Sou analista de redes em transição para o desenvolvimento web. Apaixonado por tecnologia, atualmente desenvolvo projetos com Node.js, Express, Vue e Prisma. Busco constantemente evolução e aprendizado.</p>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+
+    <div class="card">
+      <h3>Cadastro de Clientes</h3>
+      <p>CRUD completo com autenticação, criptografia de senhas e integração com banco de dados via Prisma.</p>
+    </div>
+
+    <div class="card">
+      <h3>API de Produtos</h3>
+      <p>API RESTful com rotas protegidas, validações, e testes de integração utilizando Postman.</p>
+    </div>
+
+    <!-- Adicione mais projetos aqui -->
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <div class="card">
+      <p>Email: alexandre@email.com</p>
+      <p>LinkedIn: linkedin.com/in/alexandre</p>
+      <p>GitHub: github.com/alexandredev</p>
+    </div>
+  </section>
+
+  <%- include('partials/footer') %>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
